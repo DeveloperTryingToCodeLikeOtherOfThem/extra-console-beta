@@ -1,0 +1,32 @@
+{
+    "name": "extra-console-beta",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.56",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only",
+    "theme": {
+        "skin": "microcode",
+        "background-color": "#045cf9",
+        "button-stroke": "#ffffff",
+        "text-color": "#000000",
+        "button-fill": "#0cc0f7",
+        "dpad-fill": "#8bfffe"
+    }
+}
